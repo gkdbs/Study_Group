@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- BottomNavigationView 는 최대 5개까기만 메뉴아이템 가능함 -->
+    <!-- 권장 3~5 -->
+    <item android:id="@+id/item_bnv_home"
+        android:enabled="true"
+        android:title="홈"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+    <item android:id="@+id/item_bnv_like"
+        android:enabled="true"
+        android:title="찜"
+        android:icon="@drawable/ic_baseline_favorite_24"/>
+
+    <item android:id="@+id/item_bnv_input"
+        android:enabled="true"
+        android:title="담기"
+        android:icon="@drawable/ic_baseline_shopping_basket_24"/>
+
+    <item android:id="@+id/item_bnv_notification"
+        android:enabled="true"
+        android:title="알림"
+        android:icon="@drawable/ic_baseline_notifications_24"/>
+</menu>

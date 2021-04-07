@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/purple_500">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/icon"
+        android:layout_margin="8dp"/>
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="StudyGroup"
+            android:textStyle="bold"
+            android:textColor="#FFFFFFFF"
+            android:layout_below="@id/iv"
+            android:layout_marginLeft="8dp"
+            android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="gkdbs514@naver.com"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginLeft="8dp" />
+
+
+</RelativeLayout>

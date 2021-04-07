@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+    <item android:id="@+id/menu_gallery"
+        android:title="갤러리"
+        android:icon="@android:drawable/ic_menu_gallery"/>
+    <item android:id="@+id/menu_mail"
+        android:title="쿠폰확인하기"
+        android:icon="@android:drawable/ic_menu_send"/>
+    <item android:id="@+id/menu_faveorite"
+        android:title="찜목록"
+        android:icon="@drawable/ic_baseline_favorite_24"/>
+    <item android:id="@+id/menu_calculate"
+            android:title="계산기"
+            android:icon="@drawable/ic_calculate_24"/>
+    </group>
+    <!--sub menu를 만들면 NavigationView에서 구분선이 그어짐-->
+
+    <group android:checkableBehavior="single">
+
+    <item android:title="이용해주셔서 감사합니다.">
+        <menu>
+            <item android:id="@+id/menu_setting"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="설정"/>
+            <item android:id="@+id/menu_event"
+                android:icon="@drawable/ic_baseline_event_24"
+                android:title="이벤트"/>
+        </menu>
+    </item>
+
+    </group>
+
+</menu>
